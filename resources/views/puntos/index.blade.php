@@ -17,7 +17,7 @@
               <h5 class="card-title">{{$puntico->nombre}}</h5>
               <p class="card-text">{{$puntico->area}}</p>
               <p class="card-text">{{$puntico->puntos}}</p>
-              <a href="/punto/show" class="btn btn-primary">Go somewhere</a>
+              <a href="/punto/{{$puntico->id}}" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
 
