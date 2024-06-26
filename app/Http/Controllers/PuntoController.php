@@ -64,7 +64,8 @@ class PuntoController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $point = Punto::find($id);
+        return view('puntos.edit',compact('point'));
     }
 
     /**
