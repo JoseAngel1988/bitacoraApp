@@ -21,3 +21,14 @@ Route::resource('/indicador', IndicadorController::class);
 
 Route::resource('/punto', PuntoController::class);
 
+Route::get('/punto/{punto}', [PuntoController::class, 'show']);
+
+Route::delete('/punto/{id}', [PuntoController::class, 'destroy'])->name('punto.destroy');
+
+
+
+
+
+
+
+

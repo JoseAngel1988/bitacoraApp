@@ -15,10 +15,18 @@
   width: 200px; /* Set a specific width for shorter input fields */
 }
 
+h3{
+
+    color: rgba(26, 28, 150, 0.76);
+
+}
+
+
+
 </style>
 <br><br>
 
-<h3>Ingresa tus puntos Destinika</h3>
+<h3>Ingresa tus puntos Destinica</h3>
 <form action="/punto" method="post" enctype="multipart/form-data" class="transparent-form">
   @csrf
   <div class="mb-3">
@@ -34,7 +42,7 @@
     <input type="text" class="form-control shorter-input" id="puntos" name="puntos">
   </div>
   <br>
-  <button type="submit" class="btn btn-success">Guardar</button>
+  <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
 @endsection
 

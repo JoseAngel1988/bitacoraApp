@@ -3,6 +3,15 @@
 @section('title', 'Page Title')
 
 @section('contenido')
+
+<style>
+
+    h1{
+        color: rgba(26, 28, 150, 0.76);
+    }
+
+</style>
+
 <br>
 
 <h1>Tus indicadores</h1><br>
@@ -39,7 +48,7 @@
         <div class="card-body">
           <h5 class="card-title">Video coorporativo</h5>
           <p class="card-text">En proceso de arquitectura</p>
-          <a href="#" class="btn btn-primary">ingresar</a>
+          <a href="/registro/create" class="btn btn-primary">Regresar a login</a>
         </div>
       </div>
     </div>

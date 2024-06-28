@@ -4,6 +4,18 @@
 
 @section('contenido')
 
+<style>
+        .text-center {
+
+
+            color: rgba(26, 28, 150, 0.76);
+
+        }
+
+        
+
+</style>
+
 <br>
 <h3 class="text-center">Cantidad de puntos acumulados</h3>
 <br>
@@ -17,7 +29,8 @@
               <h5 class="card-title">{{$puntico->nombre}}</h5>
               <p class="card-text">{{$puntico->area}}</p>
               <p class="card-text">{{$puntico->puntos}}</p>
-              <a href="/punto/{{$puntico->id}}" class="btn btn-primary">Go somewhere</a>
+              <a href="/punto/{{$puntico->id}}" class="btn btn-primary">Valida tus puntos</a>
+
             </div>
           </div>
 

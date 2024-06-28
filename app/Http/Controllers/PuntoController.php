@@ -55,8 +55,8 @@ class PuntoController extends Controller
      */
     public function show(string $id)
     {
-          $point = Punto::find($id);
-           return view('puntos.show', compact('point'));
+         $point = Punto::find($id);
+        return view('puntos.show', compact('point'));
     }
 
     /**
@@ -69,11 +69,13 @@ class PuntoController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified resource in storage.g
      */
     public function update(Request $request, string $id)
     {
-        //
+
+        $point = Punto::find($id);
+
     }
 
     /**
@@ -81,6 +83,18 @@ class PuntoController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $point = Punto::find($id);
+
+        if ($point) {
+            $point->delete();
+            return redirect()->route('puntos.index')->with('success', 'Punto eliminado exitosamente');
+        }
+
+        return redirect()->route('puntos.index')->with('error', 'Punto no encontrado');
+
+
     }
+
+    // ...
 }
+

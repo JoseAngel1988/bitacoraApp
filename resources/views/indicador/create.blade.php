@@ -14,6 +14,16 @@
 .input-transparent {
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
 }
+
+.form-label{
+    color: rgba(4, 4, 41, 0.76);
+}
+
+h1{
+    color: rgba(26, 28, 150, 0.76);
+
+}
+
 </style>
 
 <h1>Crear indicadores de rendimiento del agente</h1>

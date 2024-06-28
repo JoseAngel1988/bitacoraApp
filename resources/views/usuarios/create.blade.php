@@ -3,6 +3,23 @@
 @section('title', 'Page Title')
 
 @section('contenido')
+
+<style>
+ .col-md-6{
+    color: rgba(26, 28, 150, 0.76);
+
+
+ }
+
+ .form-group {
+
+    color: rgba(227, 242, 244, 0.76);
+ }
+
+
+
+</style>
+
 <br><br>
 <div class="container">
   <div class="row justify-content-center">

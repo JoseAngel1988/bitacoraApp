@@ -11,6 +11,10 @@
 
             }
 
+
+            
+
+
           </style>
 
     </head>
@@ -19,7 +23,7 @@
 <div class="container">
  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="https://images.pexels.com/photos/7948054/pexels-photo-7948054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">📶</a>
+        <a class="navbar-brand" href="/punto">🏆</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,6 +40,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/punto/create">Puntos</a>
+                </li>
+                <li class="nav-item">
+                    <img src="https://images.pexels.com/photos/7948054/pexels-photo-7948054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="50" height="50" class="ml-auto">
                 </li>
                 <!-- Agrega más elementos de menú según tus necesidades -->
             </ul>
@@ -54,4 +61,6 @@
 
         </div>
     </body>
+
 </html>
+
